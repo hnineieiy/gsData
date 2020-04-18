@@ -16,3 +16,4 @@ Route::get('/', 'GsController@showData');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('/userinfo','UserInfoController');
